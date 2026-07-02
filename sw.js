@@ -1,4 +1,4 @@
-const CACHE_NAME = 'qr-forge-v2';
+const CACHE_NAME = 'qr-forge-v3';
 const ASSETS = [
   './',
   './index.html',
