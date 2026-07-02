@@ -1,11 +1,11 @@
-const CACHE_NAME = 'qr-forge-v1';
+const CACHE_NAME = 'qr-forge-v2';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './icon.svg',
   'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js',
-  'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap'
+  'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&display=swap'
 ];
 
 self.addEventListener('install', (event) => {
