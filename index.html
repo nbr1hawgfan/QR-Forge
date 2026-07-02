@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QR Forge</title>
 <meta name="description" content="Turn any text, link, or note into a QR code and save it to your device.">
-<meta name="theme-color" content="#12151C">
+<meta name="theme-color" content="#EEF0F3">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -14,17 +14,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#12151C;
-    --surface:#1B2029;
-    --surface-raised:#20262F;
-    --line:#2E3541;
-    --line-soft:#252B35;
-    --ink:#ECE9E1;
-    --ink-dim:#9AA0AC;
-    --ink-faint:#6B7280;
-    --amber:#FFC857;
-    --amber-dim:#8A6A2A;
-    --green:#6FCF97;
+    --bg:#EEF0F3;
+    --surface:#FFFFFF;
+    --surface-raised:#F5F6F8;
+    --line:#D9DCE1;
+    --line-soft:#E3E5E9;
+    --ink:#12151C;
+    --ink-dim:#4B5560;
+    --ink-faint:#8A8F98;
+    --amber:#B4790E;
+    --amber-dim:#E4C48C;
+    --green:#1F7A4D;
     --radius:14px;
     --mono:'JetBrains Mono', ui-monospace, monospace;
     --display:'Space Grotesk', system-ui, sans-serif;
@@ -144,7 +144,7 @@
     margin-bottom:16px;
     min-height:280px;
   }
-  .bracket{position:absolute;width:22px;height:22px;border:2px solid var(--amber);opacity:.85;}
+  .bracket{position:absolute;width:22px;height:22px;border:2px solid var(--ink);opacity:.85;}
   .bracket.tl{top:14px;left:14px;border-right:none;border-bottom:none;border-radius:4px 0 0 0;}
   .bracket.tr{top:14px;right:14px;border-left:none;border-bottom:none;border-radius:0 4px 0 0;}
   .bracket.bl{bottom:14px;left:14px;border-right:none;border-top:none;border-radius:0 0 0 4px;}
@@ -214,11 +214,11 @@
   button:active{transform:scale(.98);}
   button:disabled{opacity:.4;cursor:not-allowed;}
   button.primary{
-    background:var(--amber);
-    border-color:var(--amber);
-    color:#1B1400;
+    background:var(--ink);
+    border-color:var(--ink);
+    color:var(--surface);
   }
-  button.primary:hover{background:#ffd374;}
+  button.primary:hover{background:#252B35;}
   button svg{width:15px;height:15px;flex-shrink:0;}
 
   .toast{
